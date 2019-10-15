@@ -1,5 +1,5 @@
 name:                lazy-search
-version:             0.1.2.0
+version:             0.1.2.1
 synopsis:            Finds values satisfying a lazy predicate
 description:         
   This library can be used as a property based testing driver, and more

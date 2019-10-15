@@ -503,7 +503,7 @@ ctrex' o n0 q0 = do
   return (go xs 0)
   where go []           n      = Left n
         go ((b,a):_)    _ | b  = Right a
-        go (_    :xs')  n      = go xs' (n+1)
+        go (_    :xs')  n      = go xs' $! (n+1)
  
 -- Count the domain of a function
 countdom :: Enumerable a => (a -> b) -> Count a
